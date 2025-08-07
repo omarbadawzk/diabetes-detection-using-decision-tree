@@ -20,7 +20,7 @@ session = load_model()
 st.title("Decision Tree ONNX Model")
 st.write("Enter the input values separated by commas")
 
-input_str = st.text_input("Example: 5.1,3.5,1.4,0.2")
+input_str = st.text_input("Number of Pregnancies ,Glucose Level ,Blood Pressure ,SkinThickness ,Insulin ,BMI ,DiabetesPedigreeFunction ,Age ")
 
 if st.button("Predict"):
     try:
